@@ -1,0 +1,27 @@
+{
+  "name": "hoodie-plugin-user-scripts",
+  "version": "1.0.0",
+  "description": "Basic Hoodie plugin layout",
+  "main": "worker.js",
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "chai": "~1.9.0",
+    "grunt": "^0.4.3",
+    "grunt-shell": "^0.6.4",
+    "grunt-mocha-browser": "0.0.4",
+    "grunt-hoodie": "git://github.com/caolan/grunt-hoodie.git#stop-task",
+    "grunt-continue": "0.0.1",
+    "hoodie-server": "^0.9.19",
+    "grunt-simple-mocha": "^0.4.0",
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-env": "^0.4.1",
+    "hoodie-plugin-users": "^0.1.0",
+    "grunt-contrib-watch": "^0.6.0"
+  },
+  "dependencies": {},
+  "hoodie": {
+    "plugins": [
+      "hoodie-plugin-users"
+    ]
+  }
+}
