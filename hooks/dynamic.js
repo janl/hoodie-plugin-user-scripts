@@ -4,7 +4,7 @@ var plugin_db_name = 'plugin/user-scripts';
 module.exports = function(hoodie, callback) {
   return {
     'server.api.plugin-request': function(request, reply) {
-      console.log('handle user-scripts web hook');
+      // console.log('handle user-scripts web hook');
 
       if (!request.query.id) {
         reply();
